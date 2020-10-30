@@ -6,8 +6,8 @@ export VCW_STACK_GLOBAL_PACKAGE_TAG="7.2.1"
 export VCW_STACK_GLOBAL_STACKNAMES="grafana,grafana_ui"
 export VCW_STACK_GLOBAL_BOOTSTACKS="grafana"
 export VCW_STACK_GLOBAL_RUNSTACKS="grafana_ui"
-export VCW_STACK_GLOBAL_VOLUME_LIST="${VCW_STACK_STACKPREFIX}_grafana_volume,${VCW_STACK_STACKPREFIX}_nginx_config_volume"
-export VCW_STACK_GLOBAL_VOLUME_INITIALISED="${VCW_STACK_STACKPREFIX}_grafana_volume:/var/lib/grafana,${VCW_STACK_STACKPREFIX}_nginx_config_volume:/vcw/pwd"
+export VCW_STACK_GLOBAL_VOLUME_LIST="${VCW_STACK_GLOBAL_STACKPREFIX}_grafana_volume,${VCW_STACK_GLOBAL_STACKPREFIX}_nginx_config_volume"
+export VCW_STACK_GLOBAL_VOLUME_INITIALISED="${VCW_STACK_GLOBAL_STACKPREFIX}_grafana_volume:/var/lib/grafana,${VCW_STACK_GLOBAL_STACKPREFIX}_nginx_config_volume:/vcw/pwd"
 # END CONFIGURATION
 
 # START MODULE SETTINGS
