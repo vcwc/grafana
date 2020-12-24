@@ -1,5 +1,5 @@
 # `vcwc/grafana` Image Library
 
-The versioned repository of the Grafana image library.
+The repository of stacks and modules build from the official Grafana image.
 
 It implements the basic service.
