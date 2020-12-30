@@ -2,16 +2,22 @@
 
 The repository of stacks and modules build from the official Grafana image.
 
-It contains the following implementations:
+## vcwc/grafana
 
-## vcwc/grafana stack
+### Stack
 
 The grafana base stack.
 
-## vcwc/grafana module
+### Module
 
 Port mounted Grafana module served at root.
 
-## vcwc/grafana/traefik module
+## vcwc/grafana/traefik
 
-standard url mounted Grafana module
+### Stack
+
+Sstandard url mounted Grafana stack configured for Traefik reverse proxy.
+
+### Module
+
+Standard url mounted Grafana module configured for Traefik reverse proxy.
