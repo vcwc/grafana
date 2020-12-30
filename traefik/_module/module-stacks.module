@@ -1,2 +1,1 @@
-boot/shutdown,grafana,grafana
-start/stop,grafana,grafana_ui
+start/stop,grafana,grafana
